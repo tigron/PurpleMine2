@@ -51,7 +51,7 @@
 
   dt {
     &.grouped {
-      margin-left: $activity-indent;
+      margin-left: $activity-indent * 2;
     }
 
     &.me .time {
