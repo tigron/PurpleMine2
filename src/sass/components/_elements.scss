@@ -482,7 +482,7 @@ ul.projects {
         width: 100%;
         margin-right: $padding-side * .5;
         margin-left: $padding-side * .5;
-        padding: $panel-body-padding;
+        padding: $panel-body-padding * 0.75;
         border: 1px solid $panel-border;
         border-radius: $border-radius-base;
         background-color: $panel-bg;
@@ -500,15 +500,11 @@ ul.projects {
   }
 
   li.root {
-    margin-bottom: $line-height-computed;
-  }
-
-  li.child {
-    margin-top: $line-height-computed * .5;
+    margin-bottom: $line-height-computed * .5;
   }
 
   a.project {
-    font-size: $font-size-h3;
+    font-size: $font-size-base;
     font-weight: $font-weight-bold;
 
     &.child {
