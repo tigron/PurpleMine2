@@ -77,7 +77,7 @@
     font-size: $font-size-small;
 
     &.grouped {
-      margin-left: $activity-indent;
+      margin-left: $activity-indent * 2;
     }
   }
 }
