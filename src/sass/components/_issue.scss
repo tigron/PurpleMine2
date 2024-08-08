@@ -474,6 +474,12 @@ div.thumbnails {
   border: 1px solid $bubble-border;
   border-radius: $panel-border-radius;
 
+  &.time_entry {
+    p {
+      padding-left: 15px;
+    }
+  }
+
   @if $use-gravatars {
     margin-left: $bubble-gravatar-size + $bubble-gravatar-space;
   }
